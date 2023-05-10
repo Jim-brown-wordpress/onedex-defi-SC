@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "wegld-swap",
+  "wegld-swap/meta",
+  "onedex-sc",
+  "onedex-sc/meta"
+]

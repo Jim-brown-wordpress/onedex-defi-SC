@@ -1,0 +1,3 @@
+pub const LP_TOKEN_DECIMALS: usize = 18;
+pub const MINIMUM_LIQUIDITY: u64 = 1_000_000_000_000_000;
+pub const TOTAL_PERCENT: u64 = 100_00; // 100%

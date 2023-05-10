@@ -1,0 +1,26 @@
+[package]
+name = "onedex-sc"
+version = "0.0.0"
+authors = [ "David Tanaka <realhardworkingdeveloper@gmail.com>",]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.multiversx-sc]
+version = "0.39.7"
+
+[dependencies.multiversx-sc-modules]
+version = "0.39.7"
+
+[dev-dependencies.multiversx-sc-scenario]
+version = "0.39.7"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+num-traits = "0.2"
+hex = "0.4"
+
+[dependencies.multiversx-wegld-swap-sc]
+path = "../wegld-swap"
